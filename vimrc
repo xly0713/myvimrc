@@ -5,11 +5,11 @@ let mapleader = ","
 let g:mapleader = ","
 
 let $VIMHOME = $HOME . "/.vim"
-let $BUNDLES = $VIMHOME . "/bundles.vim"
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+let $BUNDLES = $VIMHOME . "/bundles.vim"
 if filereadable($BUNDLES)
     source $BUNDLES
 endif
