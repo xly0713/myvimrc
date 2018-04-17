@@ -2,7 +2,7 @@
 " => YouCompleteMe
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 set completeopt-=preview
-let g:ycm_global_ycm_extra_conf = $HOME . '/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
 let g:ycm_extra_conf_globlist = []
 let g:ycm_always_populate_location_list = 0
 let g:ycm_auto_trigger = 1
