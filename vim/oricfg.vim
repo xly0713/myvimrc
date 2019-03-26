@@ -178,6 +178,7 @@ nmap <leader>nb :set number! number?<CR>
 
 " Open file prompt with current path
 nmap <leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
+nmap <leader>t :tabedit <C-R>=expand("%:p:h") . '/'<CR>
 
 " Movement between tabs or buffers
 nnoremap Q :call TabPrev()<CR>
