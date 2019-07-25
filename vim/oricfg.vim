@@ -5,6 +5,8 @@
 syntax on
 
 " Encoding dectection
+set encoding=utf-8
+set termencoding=utf-8
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
 " Use Unix as the standard file type
@@ -179,6 +181,10 @@ nmap <leader>nb :set number! number?<CR>
 " Open file prompt with current path
 nmap <leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
 nmap <leader>t :tabedit <C-R>=expand("%:p:h") . '/'<CR>
+
+" Toggle hexdump
+nmap <leader>hex :%!xxd<CR>
+nmap <leader>her :%!xxd -r<CR>
 
 " Movement between tabs or buffers
 nnoremap Q :call TabPrev()<CR>
