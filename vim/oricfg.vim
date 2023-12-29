@@ -44,7 +44,7 @@ set nofoldenable                  " disable folding
 set confirm                       " prompt when existing from an unsaved file
 set backspace=indent,eol,start    " more powerful backspacing
 set t_Co=256                      " explicitly tell vim that the terminal has 256 colors
-set mouse=a                       " use mouse in all modes
+"set mouse=a                       " use mouse in all modes
 set report=0                      " always report number of lines changed
 set nowrap                        " don't wrap lines
 set scrolloff=3                   " 3 lines above/below cursor when scrolling
